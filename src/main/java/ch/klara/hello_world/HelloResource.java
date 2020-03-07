@@ -9,6 +9,6 @@ public class HelloResource {
 
 	@GET
 	public Response sayHello() {
-		return Response.ok("Hello world Khanh!").build();
+		return Response.ok("Hello world Khanh Huynh!").build();
 	}
 }
