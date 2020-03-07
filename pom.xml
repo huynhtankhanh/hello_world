@@ -22,4 +22,12 @@
 	<build>
 		<finalName>hello_world</finalName>
 	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>maven_central</id>
+			<name>repo</name>
+			<url>http://repo1.maven.org/maven2</url>
+		</repository>
+	</distributionManagement>	
 </project>
